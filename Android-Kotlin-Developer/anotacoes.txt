@@ -1,0 +1,12 @@
+Intent
+	Objeto de mensagem que pode ser usado para solicitar uma ação a um componente do seu próprio aplicativo ou de um aplicativo externo, instalado no seu dispositivo.
+	Usado de três maneiras diferentes 
+		- Para iniciar uma Activity;
+		- Para iniciar um Service;
+		- Para iniciar um Broadcast Receiver.
+
+Fragments - micro activities, funciona como uma activity no sentido de ter um ciclo de vida (onCreate, onDestroy, onPause, etc.)
+
+Ciclo de vida da view e do fragment possui diferenças, veja as imagens do slide pra verificar
+
+
