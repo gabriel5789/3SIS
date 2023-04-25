@@ -1,0 +1,58 @@
+SCRUM - Processo de produção de software
+
+Planejamento de release (product backlog) 
+    -> Planejamento de sprint (sprint backlog)
+    -> Sprint 
+    -> Retrospective (retrospectiva da Sprint)
+
+Planejamento de release - sem duração pre-definida 
+
+Planejamento de sprint - no máximo 8 horas de planejamento das tarefas de produção
+
+Sprint - Modelar, programar, testar
+    Reuniões diárias durante a sprint (15min) p/ follow up 
+    Empresa deve ter um padrão de tempo pra sprints (2-4 semanas)
+
+Sprint Review
+    Reunião de no max 4h para alinhamento de entregas e mudanças
+
+Retrospectiva - até 3 horas de debates 
+
+Funções da equipe e responsabilidades
+    Product Owner -> traz demandas de negócio, 
+    SCRUM Master -> Cuida de impedimentos que o SQUAD não pode resolver
+    SQUAD - Time de desenvolvimento
+
+Artefatos - Documentos
+    Product backlog 
+    Sprint backlog (task cards)
+    Quadro de tarefas (kanban)
+    Declaração para compor uma visão de produto - Kickoff
+
+Podem existir Scrums de Scrums, já que times Scrums devem ser pequenos (~ 7 pessoas)
+E cada time cuida de um pedaço do software
+
+Arquitetura de soluções
+    Modela soluções, e não o software em si
+
+TOGAF
+    - Um framework de arquitetura de soluções 
+    - Tem várias fases, todas no slide 
+
+Domínios de arquitetura - No slide tem mais detalhes
+
+Fase Preliminar - Avaliar a maturidade e capacidade atual da empresa, Missão, Visão, Valores, Objetivos e Metas, Objetivos, BUs, Competidores e relacionamento com clientes e consumidores 
+
+MVV - Diferença entre missão e visão: Visão é a missão porém mais realista
+
+Fase Visão de Arquitetura
+    Quadros de cobertura de soluções
+        Análises de Portfólio - Mapear como a TI suporta os negócios
+        Áreas, Macro processos demandados, sistemas que antendem aos processos
+        Boa pra analisar oportunidade de projetos
+    Documentação
+        Os resultados dos estudos precisam ser documentados. Essa documentação pode ser feita com diagramas
+        ARCHIMATE - Software que pode ser usado nessa documentação
+        
+
+
