@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Cadastro</title>
+</head>
+<body>
+	<div class="container">
+		<h1 class="py-4">Cadastro de viagens</h1>
+    	<form method="post">
+    		<div class="form-group">
+    			<label for="data-decolagem">Data de decolagem</label>
+    			<input class="form-control" type="text">
+    			<label>Duração da viagem (em dias)</label>
+    			<input class="form-control" type="number">
+    		</div>
+    		<div class="form-group">
+    			<label>Qtde. de assentos disponíveis</label>
+    			<input class="form-control" type="number">
+    			<label>Modelo da nave</label>
+    			<input class="form-control" type="text">
+    		</div>
+    		<div class="form-group">
+    			<h2>Primeiro comandante</h2>
+    			<label>Nome</label>
+    			<input class="form-control" type="text">
+    			<label>Matrícula</label>
+    			<input class="form-control" type="text">
+    		</div>
+    		<div class="form-group">
+    			<h2>Segundo comandante</h2>
+    			<label>Nome</label>
+    			<input class="form-control" type="text">
+    			<label>Matrícula</label>
+    			<input class="form-control" type="text">
+    		</div>
+			<div class="form-group">
+				<a href="#" id="save-btn" class="btn btn-primary">Salvar</a>
+				<a href="#" id="delete-btn" class="btn btn-danger">Deletar</a>
+			</div>
+    	</form>
+    </div>
+</body>
+</html>

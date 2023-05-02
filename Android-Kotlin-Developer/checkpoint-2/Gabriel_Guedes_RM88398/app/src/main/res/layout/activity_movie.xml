@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/movie_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:textSize="@dimen/large_text"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/movie_sinopsis_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/padding_medium"
+        android:text="@string/movie_sinopsis_lbl"
+        android:labelFor="@+id/movie_sinopsis"
+        android:textSize="@dimen/medium_text"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/movie_name"
+        android:layout_marginTop="@dimen/margin_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/movie_sinopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/padding_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movie_sinopsis_lbl"
+        android:textSize="@dimen/medium_text"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/parental_rating_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/padding_medium"
+        android:text="@string/parental_rating_lbl"
+        android:labelFor="@+id/parental_rating"
+        android:textSize="@dimen/medium_text"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/movie_sinopsis"
+        android:layout_marginTop="@dimen/margin_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/parental_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/padding_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parental_rating_lbl"
+        android:textSize="@dimen/medium_text"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/genre_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/padding_medium"
+        android:text="@string/genre_lbl"
+        android:labelFor="@+id/genre"
+        android:textSize="@dimen/medium_text"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/parental_rating"
+        android:layout_marginTop="@dimen/margin_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/padding_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genre_lbl"
+        android:textSize="@dimen/medium_text"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/duration_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/padding_medium"
+        android:text="@string/duration_lbl"
+        android:labelFor="@+id/duration"
+        android:textSize="@dimen/medium_text"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/genre"
+        android:layout_marginTop="@dimen/margin_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/padding_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/duration_lbl"
+        android:textSize="@dimen/medium_text"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/in_theathers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="@dimen/large_text"
+        android:textStyle="bold"
+        android:text=""/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Lista de viagens</title>
+</head>
+<body>
+    <div class="container p-4">
+        <h1>Lista de viagens</h1>
+        <div class="alert alert-success" role="alert" th:if="${message} != null" th:text="${message}">
+		</div>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Data da decolagem</th>
+                    <th>Dias em Marte</th>
+                    <th>Quantidade de Assentos Disponiveis</th>
+                    <th>Nome modelo</th>
+                    <th>Nome do primeiro comandante</th>
+                    <th>Matrícula primeiro comandante</th>
+                    <th>Nome do segundo comandante</th>
+                    <th>Matrícula segundo comandante</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="viagem : ${viagens}">
+                    <td th:text="${viagem.getDataDecolagem()}"></td>
+                    <td th:text="${viagem.getDiasEstadia}"></td>
+                    <td th:text="${viagem.getQtdeAssentosDisponiveis()}"></td>
+                    <td th:text="${viagem.getModeloNave()}"></td>
+                    <td th:text="${viagem.getNomeComandante1()}"></td>
+                    <td th:text="${viagem.getMatriculaComandante1()}"></td>
+                    <td th:text="${viagem.getNomeComandante2()}"></td>
+                    <td th:text="${viagem.getMatriculaComandante2()}"></td>
+                    <td><a class="btn btn-primary" th:href="@{/viagem/editar}">Editar</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a class="btn btn-primary" th:href="@{/viagem/create}">Cadastrar nova viagem</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Gabriel_Guedes_RM88398</string>
+    <string name="movie_list_title">Filmes que estão em cartaz hoje</string>
+    <string name="button_share_message_label">Compartilhar</string>
+    <string name="button_detail_message_label">Detalhes</string>
+    <string name="inTheathers">Em Cartaz</string>
+    <string name="notInTheathers">Fora de Cartaz</string>
+    <string name="movie_sinopsis_lbl">Sinopse:</string>
+    <string name="parental_rating_lbl">Classificação:</string>
+    <string name="genre_lbl">Gênero:</string>
+    <string name="duration_lbl">Duração:</string>
+</resources>
